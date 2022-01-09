@@ -1,15 +1,11 @@
-👻.GUNAKAN BOT INI DENGAN BIJAK
-//------------------------------------< hemm >------------------------------------
 
 
 
-//TQ TO
 
 
 
-//🐣 ALLAH SWT { MY GOOD }+{ MY PRIORITAS }
 
-//🐣 RASULULLAH { MY IDOLA }
+
 
 //🐣 ORANG TUA { MY FAMILY }
 
@@ -93,4 +89,4 @@
 
 //MAU RECODE SC? RECODE AJA TAPI JANGAN LUPA NAMA SAYA HAIKAL
 
-//MAAF YA KALO MASIH BANYAK ERORR BARU BELAJAR NGAB 😭
+
