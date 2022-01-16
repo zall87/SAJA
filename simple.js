@@ -69,7 +69,7 @@ const moment = require('moment-timezone')
 const ffmpeg = require('fluent-ffmpeg')
 const { uploadimg, upload } = require('./lib/uploadimg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
-const { menunya } = require('./lib/menu')
+
 const brainly = require('brainly-scraper')
 
 //>>>>>>>>>>>>>>>>>>>{ CONST² WALISONGO }<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\\
@@ -648,7 +648,8 @@ var ase = new Date();
                              case 20: jamss = "Selamat malam🌙"; break;
                             case 21: jamss = "Selamat malam🌙"; break;
                           case 22: jamss = "Selamat malam 🌙"; break;
-                        case 23: jamss = "Selamat malam🌙"; break;
+                        case 23: jamss = "Selamat malam🌙"; break;
+
             }
             var tampilUcapan = "" + jamss;
 let locale = "id";
@@ -795,7 +796,8 @@ break
 
 //>>>>>>>>>>>>>>>>>>>>[ COMMAND ]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 
-  case 'c':
+  case 'c':
+
   case 'command':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
                list = []
@@ -936,7 +938,8 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 
 //>>>>>>>>>>>>>>>>>>>>>>>[ CASE COMMAND ]<<<<<<<<<<<<<<<<<<<<<<<<\\
 
-case 'grouphaikal':
+case 'grouphaikal':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `_*HAI*_`
@@ -981,7 +984,8 @@ but = [
          sendButton(from, emm, oy, but)
 break
 
-case 'isidataakun':
+case 'isidataakun':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `「 ${botname} 」
@@ -1054,7 +1058,8 @@ but = [
           sendButton(from, emm, oy, but)
         break
 
-case 'groupmenu':
+case 'groupmenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1084,7 +1089,8 @@ but = [
         ]
           sendButton(from, emm, oy, but)
 break
-case 'stickermenu':
+case 'stickermenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1170,7 +1176,8 @@ but = [
           sendButton(from, emm, oy, but)
 break
     
-case 'informationmenu':
+case 'informationmenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1248,7 +1255,8 @@ but = [
           sendButton(from, emm, oy, but)
 break
     
-case 'searchmenu':
+case 'searchmenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1289,7 +1297,8 @@ but = [
           sendButton(from, emm, oy, but)
 break
     
-case 'stalkmenu':
+case 'stalkmenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1308,7 +1317,8 @@ but = [
           sendButton(from, emm, oy, but)
 break
     
-case 'randomimagemenu':
+case 'randomimagemenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -1354,7 +1364,8 @@ but = [
           sendButton(from, emm, oy, but)
 break
  
-case 'asupanmenu':
+case 'asupanmenu':
+
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgif})
 emm =
 `Hai, ${pushname}
@@ -3274,7 +3285,8 @@ break
 
 //━━━━━━━━━━━━━━━[ FITUR SEWA BOT ]━━━━━━━━━━━━━━━━━//
 
-case 'sewabot':
+case 'sewabot':
+
 simple.updatePresence(from, Presence.recording)
 told =  fs.readFileSync('./poto/bot.mp4')
 img =  await getBuffer(told)
@@ -4509,7 +4521,8 @@ case 'brainly':
 		            })              
 					break
 
-case 'donasi':
+case 'donasi':
+
 simple.updatePresence(from, Presence.recording)
 Gtau = 'https://i.ibb.co/10SyhTM/20211229-133803.jpg'
 img =  await getBuffer(Gtau)
@@ -4523,7 +4536,8 @@ tod = `
 
 │_*Kalo Udah Donasi Bisa Request Fitur*_
 
-│_*Ketik. !request [ _*Requestsan nya*_ ]
+│
+_*Ketik. !request [ _*Requestsan nya*_ ]
 
 └──────㋡   `
 but = [
